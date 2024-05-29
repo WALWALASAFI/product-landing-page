@@ -1,3 +1,10 @@
+@media (max-width: 769px) {
+    .menue-bar{
+      display: initial;
+    }
+  
+} 
+  
 :root {
     --green: #2cd326;
 }
@@ -33,4 +40,119 @@ section {
   align-items: center;
   padding: 2rem 9%;
   font-size: large;
+}
+
+.header .logo img {
+  width: 400px;
+}
+
+.navbar a {
+  font-size: 18px;
+  margin-left: 8px;
+  color: #1cb91c;
+}
+
+.menue-button {
+  display: inline-block;
+  padding: 1.5rem;
+  background-color: var(--green);
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.menue-button:hover {
+  border: 2px solid var(--green);
+  background: none;
+}
+
+.menue-button:hover a {
+  color: white;
+}
+.menue-button a {
+  color: white;
+}
+
+.about-heading {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+p {
+  text-align: justify;
+  font-size: 20px;
+  color: #0b0c0b;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-bottom: 20rem;
+}
+
+.products {
+  padding: 2rem 7%;
+}
+
+.products h1 {
+  font-size: 40px;
+  gap: 15px;
+  color: #0da812;
+  text-align: center;
+}
+
+.main-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.inner-product {
+  flex: 1 1 300px;
+  position: relative;
+}
+
+.product-content h3,i {
+  position: absolute;
+}
+
+.product-content h3 {
+  color: white;
+  background-color: #2cd326;
+  padding: 1.5rem 2rem;
+  z-index: 100;
+}
+
+.product-content h3:hover {
+  border: 1px solid black;
+  color: var(--green);
+  background: white;
+  cursor: pointer;
+}
+
+.product-content i {
+  top: 10px;
+  right: 0;
+  font-size: 18px;
+  color: var(--green);
+  z-index: 100;
+}
+
+.inner-product img {
+  width: 250px;
+}
+
+.inner-product img {
+  padding: 1rem;
+  animation: float 3s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translatey(0rem);
+  }
+  50% {
+    transform: translatey(3rem);
+  }
 }
