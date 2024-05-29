@@ -1,0 +1,36 @@
+:root {
+    --green: #2cd326;
+}
+
+*{
+    font-family: Nunito , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: #fffdfe;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 9%;
+  font-size: large;
+}
