@@ -1,22 +1,21 @@
 @media (max-width: 769px) {
-    .menue-bar{
-      display: initial;
-    }
-  
-} 
-  
-:root {
-    --green: #2cd326;
+  .menu-bar {
+    display: initial;
+  }
 }
 
-*{
-    font-family: Nunito , sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    transition: all .2s linear;
+:root {
+  --green: #2cd326;
+}
+
+* {
+  font-family: Nunito, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
 }
 
 html {
@@ -52,7 +51,7 @@ section {
   color: #1cb91c;
 }
 
-.menue-button {
+.menu-button {
   display: inline-block;
   padding: 1.5rem;
   background-color: var(--green);
@@ -62,15 +61,16 @@ section {
   border-bottom-left-radius: 10px;
 }
 
-.menue-button:hover {
+.menu-button:hover {
   border: 2px solid var(--green);
   background: none;
 }
 
-.menue-button:hover a {
+.menu-button:hover a {
   color: white;
 }
-.menue-button a {
+
+.menu-button a {
   color: white;
 }
 
@@ -80,13 +80,14 @@ section {
   padding-top: 3rem;
   padding-bottom: 4rem;
 }
+
 p {
   text-align: justify;
   font-size: 20px;
   color: #0b0c0b;
   padding-right: 5rem;
   padding-left: 5rem;
-  padding-bottom: 20rem;
+  padding-bottom: 20rem; /* This seems like a large padding-bottom value, please verify */
 }
 
 .products {
@@ -113,7 +114,7 @@ p {
   position: relative;
 }
 
-.product-content h3,i {
+.product-content h3, .product-content i {
   position: absolute;
 }
 
@@ -141,18 +142,15 @@ p {
 
 .inner-product img {
   width: 250px;
-}
-
-.inner-product img {
   padding: 1rem;
   animation: float 3s linear infinite;
 }
 
 @keyframes float {
   0%, 100% {
-    transform: translatey(0rem);
+    transform: translateY(0rem);
   }
   50% {
-    transform: translatey(3rem);
+    transform: translateY(3rem);
   }
 }
