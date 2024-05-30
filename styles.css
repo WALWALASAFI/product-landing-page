@@ -41,6 +41,13 @@ section {
   animation: float 3s linear infinite;
 }
 
+/* Reordered to come before ".header .logo img" */
+.inner-product img {
+  width: 250px;
+  padding: 1rem;
+  animation: float 3s linear infinite;
+}
+
 .header .logo img {
   width: 400px;
 }
@@ -65,13 +72,13 @@ section {
   color: white;
 }
 
+.menu-button:hover a {
+  color: white;
+}
+
 .menu-button:hover {
   border: 2px solid var(--green);
   background: none;
-}
-
-.menu-button:hover a {
-  color: white;
 }
 
 .about-heading {
@@ -115,7 +122,6 @@ p {
 }
 
 .product-content h3,
-
 .product-content i {
   position: absolute;
 }
@@ -144,6 +150,7 @@ p {
 
 @keyframes float {
   0%,
+
   100% {
     transform: translateY(0rem);
   }
@@ -152,6 +159,7 @@ p {
   }
 }
 
+/* Added an empty line before the @media rule */
 @media (max-width: 769px) {
   .menu-bar {
     display: initial;
