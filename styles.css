@@ -35,6 +35,12 @@ section {
   font-size: large;
 }
 
+.inner-product img {
+  width: 250px;
+  padding: 1rem;
+  animation: float 3s linear infinite;
+}
+
 .header .logo img {
   width: 400px;
 }
@@ -108,13 +114,8 @@ p {
   position: relative;
 }
 
-.inner-product img {
-  width: 250px;
-  padding: 1rem;
-  animation: float 3s linear infinite;
-}
-
 .product-content h3,
+
 .product-content i {
   position: absolute;
 }
