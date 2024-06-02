@@ -11,6 +11,8 @@ Convenience at Your Doorstep: With online fresh fruit shopping, the bounty of th
 
 ✅3:-- Variety and Seasonality: Whether you crave the sweetness of summer berries, the tanginess of citrus fruits, or the crispness of fall apples, online fresh fruit stores offer a year-round assortment to suit every taste and craving. Plus, they often showcase specialty and exotic fruits that may be challenging to find locally, allowing you to explore new flavors and culinary adventures.
 
+Demo 📸
+![Screenshot](./images/SharedScreenshot.jpg)
 
 Technologies Used 🛠️
 🔹HTML
