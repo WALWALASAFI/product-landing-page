@@ -35,8 +35,6 @@ section {
   font-size: large;
 }
 
-/* Removed duplicate selector .inner-product img */
-
 .header .logo img {
   width: 400px;
 }
@@ -135,6 +133,7 @@ p {
   0%, 100% {
     transform: translateY(0rem);
   }
+
   50% {
     transform: translateY(3rem);
   }
@@ -151,9 +150,11 @@ p {
 .navbar a[href="#Home"] {
   /* Adjust styles if needed */
 }
+
 .navbar a[href="#Fruits"] {
   /* Adjust styles if needed */
 }
+
 .navbar a[href="#Popular_recipes"] {
   /* Adjust styles if needed */
 }
