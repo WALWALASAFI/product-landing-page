@@ -5,10 +5,9 @@
 
 /* Reset styles */
 * {
-  font-family: Nunito, sans-serif;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   outline: none;
   border: none;
   transition: all 0.2s linear;
@@ -114,12 +113,6 @@ p {
 .inner-product {
   flex: 1 1 300px;
   position: relative;
-}
-
-.inner-product img {
-  width: 250px;
-  padding: 1rem;
-  animation: float 3s linear infinite;
 }
 
 /* Product content styles */
