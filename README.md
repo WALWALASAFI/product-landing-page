@@ -9,7 +9,9 @@ Convenience at Your Doorstep: With online fresh fruit shopping, the bounty of th
 
 ✅2:-- Quality Assurance: Trusted online platforms source their fruits directly from reputable growers and suppliers, ensuring top-notch quality and freshness. Each fruit is carefully inspected, handpicked at peak ripeness, and meticulously packed to preserve its flavor, texture, and nutritional value during transit.
 
-✅3:-- Variety and Seasonality: Whether you crave the sweetness of summer berries, the tanginess of citrus fruits, or the crispness of fall apples, online fresh fruit stores offer a year-round assortment to suit every taste and craving. Plus, they often showcase specialty and exotic fruits that may be challenging to find locally, allowing you to explore new flavors and culinary adventures.
+✅3:-- Variety and Seasonality: Whether you crave the sweetness of summer berries, the tanginess of citrus fruits, or the crispness of fall apples, online fresh fruit stores offer.....
+
+👌💙 Demo-link:-- (https://walwalasafi.github.io/product-landing-page/)
 
 Demo 📸
 ![Screenshot](./images/SharedScreenshot.jpg)
