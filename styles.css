@@ -1,0 +1,161 @@
+/* Define custom CSS variables */
+:root {
+  --green: #2cd326;
+}
+
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
+/* Set base font size and scrolling behavior */
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+/* Set background color for the body */
+body {
+  background: #fffdfe;
+}
+
+/* Apply padding to sections */
+section {
+  padding: 2rem 9%;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 9%;
+  font-size: large;
+}
+
+/* Adjust logo size */
+.header .logo img {
+  width: 400px;
+}
+
+/* Navbar styles */
+.navbar a {
+  font-size: 18px;
+  margin-left: 8px;
+  color: #1cb91c;
+}
+
+/* Menu button styles */
+.menu-button {
+  display: inline-block;
+  padding: 1.5rem;
+  background-color: var(--green);
+  color: white;
+  border-radius: 10px;
+}
+
+.menu-button a {
+  color: white;
+}
+
+.menu-button:hover {
+  border: 2px solid var(--green);
+  background: none;
+}
+
+.menu-button:hover a {
+  color: white;
+}
+
+/* About heading styles */
+.about-heading {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+/* Paragraph styles */
+p {
+  text-align: justify;
+  font-size: 20px;
+  color: #0b0c0b;
+  padding: 0 5rem 20px; /* Adjusted padding value */
+}
+
+/* Products section styles */
+.products {
+  padding: 2rem 7%;
+}
+
+.products h1 {
+  font-size: 40px;
+  color: #0da812;
+  text-align: center;
+}
+
+/* Main products container styles */
+.main-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 2rem 0; /* Adjusted padding */
+}
+
+/* Individual product styles */
+.inner-product {
+  flex: 1 1 300px;
+  position: relative;
+}
+
+/* Product content styles */
+.product-content h3 {
+  position: absolute;
+  color: white;
+  background-color: #2cd326;
+  padding: 1.5rem 2rem;
+  z-index: 100;
+}
+
+.product-content h3:hover {
+  border: 1px solid black;
+  color: var(--green);
+  background: white;
+  cursor: pointer;
+}
+
+.product-content i {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  font-size: 18px;
+  color: var(--green);
+  z-index: 100;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 769px) {
+  .menu-bar {
+    display: initial;
+  }
+}
+
+/* Link styles for navigation */
+.navbar a[href="#Home"] {
+  /* Adjust styles if needed */
+}
+
+.navbar a[href="#Fruits"] {
+  /* Adjust styles if needed */
+}
+
+.navbar a[href="#Popular_recipes"] {
+  /* Adjust styles if needed */
+}
