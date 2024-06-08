@@ -144,6 +144,7 @@ p {
 @media (max-width: 769px) {
   .menu-bar {
     display: initial;
+    header: var(--green)
   }
 }
 

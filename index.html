@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add CSS styles here */
+    </style>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="logo">
-            <img src="images/logo.jpg">
+            <img src="images/logo.jpg" id="header-img">
         </div>
-
-        <nav class="navbar">
-            <a href="#Home">Home</a>
-            <a href="#Fruits">Fruits</a>
-            <a href="#Popular recipes">Popular recipes</a>
+        
+        <nav class="navbar" id="nav-bar">
+            <a href="#Home" class="nav-link">Home</a>
+            <a href="#Fruits" class="nav-link">Fruits</a>
+            <a href="#PopularRecipes" class="nav-link">Popular recipes</a>
         </nav>
 
         <div class="menu-bar">
@@ -27,11 +30,8 @@
         </button>
     </header>
 
-    <!-- Header ended -->
-
-    <!-- Home section is starting-->
-
-    <div class="section">
+    <!-- Home section -->
+    <div class="section" id="Home">
         <div class="Home-left">
             <h3 class="left-small-content"></h3>
             <h3 class="left-large-content"></h3>
@@ -42,7 +42,8 @@
         </div>
     </div>
 
-    <div class="section">
+    <!-- Fruits section -->
+    <div class="section" id="Fruits">
         <div class="about-us-section">
             <h2 class="about-heading">Welcome to Shope</h2>
             <p>At [W~SAFI], we're passionate about delivering the freshest
@@ -57,7 +58,7 @@
             we're committed to making a positive impact wherever we operate.</p>
         </div>
 
-        <div class="products">
+        <div class="products" id="product">
             <h1>All products</h1>
             <div class="main-products">
                 <div class="inner-product">
@@ -68,47 +69,30 @@
                     </div>
                 </div>
 
-                <div class="inner-product">
-                    <div class="product-content">
-                        <i class="fal fa-cart-plu"></i>
-                        <h3>On Offer</h3>
-                        <img src="images/grapes.jpg" alt="">
-                    </div>
-                </div>
+                <!-- Add more product items here -->
 
-                <div class="inner-product">
-                    <div class="product-content">
-                        <i class="fal fa-cart-plu"></i>
-                        <h3>On Offer</h3>
-                        <img src="images/straw berry.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="inner-product">
-                    <div class="product-content">
-                        <i class="fal fa-cart-plu"></i>
-                        <h3>On Offer</h3>
-                        <img src="images/banana.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="inner-product">
-                    <div class="product-content">
-                        <i class="fal fa-cart-plu"></i>
-                        <h3>On Offer</h3>
-                        <img src="images/pomegranate.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="inner-product">
-                    <div class="product-content">
-                        <i class="fal fa-cart-plu"></i>
-                        <h3>On Offer</h3>
-                        <img src="images/apricot.jpg" alt="">
-                    </div>
-                </div>
             </div>
         </div>
     </div>
+
+    <!-- Popular recipes section -->
+    <div class="section" id="PopularRecipes">
+        <!-- Add content for Popular recipes section -->
+    </div>
+
+    <video id="video" src="your-video-source.mp4" controls></video>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+    <footer>
+        <nav class="footer-nav">
+            <a href="#Home" class="Home">Home</a>
+            <a href="#Fruits" class="Fruits">Fruits</a>
+            <a href="#PopularRecipes" class="PopularRecipes">Popular recipes</a>
+        </nav>
+    </footer>
 </body>
 </html>
